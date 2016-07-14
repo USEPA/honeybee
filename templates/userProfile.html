@@ -1,0 +1,53 @@
+<ion-view title="User Profile" id="page4" class=" ">
+    <ion-content padding="true" class="has-header">
+        <form id="userProfile-form1" class="list ">
+            <label class="item item-input " id="userProfile-input20" name="name">
+                <span class="input-label">Name</span>
+                <input type="text" placeholder="">
+            </label>
+            <label class="item item-input " id="userProfile-input4" name="email">
+                <span class="input-label">Email Address</span>
+                <input type="email" placeholder="">
+            </label>
+            <div class="spacer" style="width: 300px; height: 20px;"></div>
+            <p id="userProfile-markdown38" style="color:#000000;font-size:17px;" class=" ">
+                <em>Are you a beekeeper?</em>
+            </p>
+            <ion-toggle toggle-class="toggle-positive" id="userProfile-toggle14" name="beekeper" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 23px;"></div>
+            <p id="userProfile-markdown39" style="color:#000000;" class=" ">
+                <strong>*If Yes display section below</strong>*</p>
+            <label class="item item-input " id="userProfile-input1" name="zip">
+                <span class="input-label">Apiary Zip Code</span>
+                <input type="number" placeholder="">
+            </label>
+            <label class="item item-input " id="userProfile-input3" name="country">
+                <span class="input-label">Apiary County</span>
+                <input type="text" placeholder="">
+            </label>
+            <label class="item item-input " id="userProfile-input5" name="years">
+                <span class="input-label"># of years beekeeping</span>
+                <input type="number" placeholder="">
+            </label>
+            <label class="item item-input " id="userProfile-input6" name="colonies">
+                <span class="input-label"># of colonies in apiary</span>
+                <input type="number" placeholder="">
+            </label>
+            <label class="item item-input " id="userProfile-input7" name="race">
+                <span class="input-label">Race of bees</span>
+                <input type="text" placeholder="">
+            </label>
+        </form>
+        <div class="spacer" style="width: 300px; height: 21px;"></div>
+        <p id="userProfile-markdown2" style="color:#000000;font-size:17px;" class=" ">Do you actively monitor Varroa mite numbers?</p>
+        <form id="userProfile-form3" class="list ">
+            <ion-toggle toggle-class="toggle-positive" id="userProfile-toggle2" name="varroa_mite_numbers" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 20px;"></div>
+            <p id="userProfile-markdown3" style="color:#000000;font-size:17px;" class=" ">How many times/year do you monitor Varroa mite numbers?</p>
+            <label class="item item-input " id="userProfile-input10" name="timesyear_number">
+                <input type="number" placeholder="">
+            </label>
+            <button id="userProfile-button1" class=" button button-positive  button-block ">Save</button>
+        </form>
+    </ion-content>
+</ion-view>

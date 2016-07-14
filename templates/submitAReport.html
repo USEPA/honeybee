@@ -1,0 +1,73 @@
+<ion-view title="Submit a Report" id="page3" class=" ">
+    <ion-content padding="true" class="has-header">
+        <p id="submitAReport-markdown4" style="color:#000000;" class=" ">
+            <strong>*If general public display below section.</strong>*</p>
+        <h1 id="submitAReport-heading3" style="color:#000000;font-weight:400;" class=" ">Submit a sighting</h1>
+        <div style="margin: 0px; line-height: 250px; text-align: center; background-color: rgb(232, 235, 239);">
+            <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+        </div>
+        <p id="submitAReport-markdown7" style="color:#000000;font-size:17px;" class=" ">Image is stored to your Flickr account.</p>
+        <form id="submitAReport-form7" class="list ">
+            <ion-radio id="submitAReport-radio4" class=" ">Bee</ion-radio>
+            <ion-radio id="submitAReport-radio5" class=" ">Butterfly</ion-radio>
+            <ion-radio id="submitAReport-radio6" class=" ">Other</ion-radio>
+        </form>
+        <a ui-sref="tabsController.plantSpeciesIdentification" id="submitAReport-button4" class=" button button-positive  button-block ">Identify Plant Species</a>
+        <p id="submitAReport-markdown5" style="color:#000000;" class=" ">
+            <strong>*If beekeeper display below section.</strong>*</p>
+        <h2 id="submitAReport-heading4" style="color:#000000;" class=" ">Hive Information and Status</h2>
+        <p id="submitAReport-markdown14" style="color:#000000;font-size:17px;" class=" ">When was the hive last treated for Varroa mites?</p>
+        <form id="submitAReport-form8" class="list ">
+            <label class="item item-input " id="submitAReport-input8">
+                <input type="text" placeholder="">
+            </label>
+            <div class="spacer" style="width: 300px; height: 19px;"></div>
+            <p id="submitAReport-markdown15" style="color:#000000;font-size:17px;" class=" ">Varroa managment strategy:
+                <br>(Check all that apply)</p>
+            <ion-checkbox name="screen_bottom_board">Screen bottom board</ion-checkbox>
+            <ion-checkbox name="powedered_sugar">Powdered sugar</ion-checkbox>
+            <ion-checkbox name="requeening">Requeening w/ resistant stock</ion-checkbox>
+            <ion-checkbox name="brood_removal">Drone brood removal</ion-checkbox>
+            <ion-checkbox name="brood_interuption">Brood interruption</ion-checkbox>
+            <ion-checkbox name="chemical_control">Chemical control products</ion-checkbox>
+            <ion-checkbox name="treatment_free">Treatment-free</ion-checkbox>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown16" style="color:#000000;font-size:17px;" class=" ">Age of queen:</p>
+            <label class="item item-input " id="submitAReport-input9">
+                <span class="input-label">Input</span>
+                <input type="number" placeholder="">
+            </label>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown19" style="color:#000000;font-size:17px;" class=" ">Drone laying queen:</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle5" name="drone_laying" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown17" style="color:#000000;font-size:17px;" class=" ">Queen right (queen and/or eggs present):</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle3" name="queen_right" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown18" style="color:#000000;font-size:17px;" class=" ">Queenless (no eggs or queen present):</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle4" name="queenless" class=" ">No/Yes</ion-toggle>
+            <h3 id="submitAReport-heading5" style="color:#000000;" class=" ">Signs of disease/pest infestation</h3>
+            <p id="submitAReport-markdown20" style="color:#000000;font-size:17px;" class=" ">Small hive beetle (larvae or adult)</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle6" name="small_hive_beetle" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown21" style="color:#000000;font-size:17px;" class=" ">Wax moth (larvae or adult)</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle7" name="wax_moth" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown22" style="color:#000000;font-size:17px;" class=" ">Deformed wings</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle8" name="deformed_wings" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown23" style="color:#000000;font-size:17px;" class=" ">Black shiny bees</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle9" name="black_shiny_bees" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown24" style="color:#000000;font-size:17px;" class=" ">Parasitic Mite Syndrome</p>
+            <ion-toggle toggle-class="toggle-positive" id="submitAReport-toggle10" name="parasitic_mite_syndrome" class=" ">No/Yes</ion-toggle>
+            <div class="spacer" style="width: 300px; height: 21px;"></div>
+            <p id="submitAReport-markdown26" style="color:#000000;font-size:17px;" class=" ">Have you observed any other signs of diseases such as spotty brood pattern, abnormal cappings (i.e. dark, sunken, punctured) or dried remains of larvae/pupae associated with the sampled hive? If so, please explain.</p>
+            <label class="item item-input "
+            id="submitAReport-textarea1" name="signs_of_diseases">
+                <span class="input-label"></span><textarea placeholder=""></textarea>
+            </label>
+            <a ui-sref="tabsController.dataCollection" id="submitAReport-button8" class=" button button-positive  button-block ">Next</a>
+        </form>
+    </ion-content>
+</ion-view>

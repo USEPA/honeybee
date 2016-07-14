@@ -1,0 +1,50 @@
+<ion-view title="Data Collection" id="page8" class=" ">
+    <ion-content padding="true" class="has-header">
+        <form id="dataCollection-form11" class="list ">
+            <h2 id="dataCollection-heading6" style="color:#000000;" class=" ">Data Collection</h2>
+            <label class="item item-input " id="dataCollection-input14">
+                <span class="input-label">Collection Date:</span>
+                <input type="date" placeholder="">
+            </label>
+            <h3 id="dataCollection-heading8" style="color:#000000;" class=" ">Monitoring Varroa Mite Infestation</h3>
+            <label class="item item-input " id="dataCollection-input15" name="mite_count_1">
+                <span class="input-label">Mite Count #1</span>
+                <input type="number" placeholder="">
+            </label>
+            <ion-toggle toggle-class="toggle-positive" id="dataCollection-toggle11" name="picture_1" class=" ">Picture 1</ion-toggle>
+            <div style="margin: 0px; line-height: 250px; text-align: center; background-color: rgb(232, 235, 239);">
+                <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+            </div>
+            <div class="spacer" style="width: 300px; height: 60px;"></div>
+            <label class="item item-input " id="dataCollection-input16" name="mite_count_2">
+                <span class="input-label">Mite Count #2</span>
+                <input type="number" placeholder="">
+            </label>
+            <ion-toggle toggle-class="toggle-positive" id="dataCollection-toggle12" name="picture_2" class=" ">Picture 2</ion-toggle>
+            <div style="margin: 0px; line-height: 250px; text-align: center; background-color: rgb(232, 235, 239);">
+                <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+            </div>
+            <div class="spacer" style="width: 300px; height: 60px;"></div>
+            <label class="item item-input " id="dataCollection-input17" name="mites_total">
+                <span class="input-label">Total # of bees in the sample</span>
+                <input type="number" placeholder="">
+            </label>
+            <div class="spacer" style="width: 300px; height: 23px;"></div>
+            <label class="item item-input " id="dataCollection-input18" name="100_bees">
+                <span class="input-label">Mites per 100 bees</span>
+                <input type="number" placeholder="[autocalculated]">
+            </label>
+            <div class="spacer" style="width: 300px; height: 60px;"></div>
+            <ion-checkbox>Treatment required?</ion-checkbox>
+            <div class="spacer" style="width: 300px; height: 23px;"></div>
+            <p id="dataCollection-markdown29" style="color:#000000;font-size:17px;" class=" ">Type of treatment applied:</p>
+            <label class="item item-input " id="dataCollection-textarea2" name="treatment_type">
+                <span class="input-label"></span><textarea placeholder=""></textarea>
+            </label>
+            <h3 id="dataCollection-heading9" style="color:#000000;" class=" ">Honey Collection</h3>
+            <p id="dataCollection-markdown31" style="color:#000000;font-size:17px;" class=" ">Filled sample collection tube with honey from sealed honey cells.</p>
+            <ion-toggle toggle-class="toggle-positive" id="dataCollection-toggle13" name="collection_tube_full" class=" ">No/Yes</ion-toggle>
+            <a ui-sref="tabsController.labelGeneration" id="dataCollection-button9" class=" button button-positive  button-block ">Next</a>
+        </form>
+    </ion-content>
+</ion-view>
